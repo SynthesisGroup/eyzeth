@@ -1,0 +1,12 @@
+/*Preventives and Overwrites */
+.header-logo img { max-width: 100%; }
+.widget-box img { max-width: 60%; }
+
+.feature-section { color: #FFFFFF; background-size:cover; }
+.feature-section.source-1 .row { flex-direction: row-reverse; }
+.feature-section.source-1 { background-position: left center; }
+.feature-section.source-2 .row { flex-direction: row; }
+.feature-section.source-2 { background-position: right center; }
+
+.thumb-post li { padding-left: 0; }
+.thumb-post li img { max-width: 80px; margin-right: 20px; }
