@@ -10,3 +10,16 @@
 
 .thumb-post li { padding-left: 0; }
 .thumb-post li img { max-width: 80px; margin-right: 20px; }
+
+/* Slider */
+.dl-slider .slider-content { max-width: 560px; }
+.dl-slider .dl-caption.big { white-space: normal; line-height: 50px; height: auto; }
+
+/* CTA Section */
+.cta-section { position: relative; }
+.cta-section:before { position: absolute; z-index: 1; background: rgba(0, 0, 0, 0.5); content: ""; }
+.cta-section:before { top: 0; left: 0; height: 100%; width: 100%; }
+.cta-section .container { position: relative; z-index: 2; }
+
+.counter-section { z-index: 3; position: relative; }
+.counter-wrap { /*margin-bottom: 0;*/ }
